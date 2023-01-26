@@ -5,7 +5,6 @@ from mycripto.models import ProcesaDatosBdd
 from mycripto.forms import ComprasForm
 from mycripto.models_api import ProcesaDatosApi, APIError
 
-
 ruta_bdd = app.config["RUTA_BDD"]
 api_key = app.config["API_KEY"]
 data_manager = ProcesaDatosBdd(ruta_bdd)
